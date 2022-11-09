@@ -1,0 +1,39 @@
+{
+  "name": "fb",
+  "forwardPorts": [8000, 9000, 6787],
+  "remoteUser": "frappe",
+  "settings": {
+    "terminal.integrated.profiles.linux": {
+      "frappe bash": {
+        "path": "/bin/bash"
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "frappe bash",
+    "debug.node.autoAttach": "disabled"
+  },
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "frappe",
+  "workspaceFolder": "/workspace/development",
+  "shutdownAction": "stopCompose",
+  "extensions": [
+    "ms-python.python",
+    "ms-vscode.live-server",
+    "grapecity.gc-excelviewer",
+    "mtxr.sqltools",
+    "visualstudioexptteam.vscodeintellicode",
+    "ms-python.vscode-pylance",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "freakypie.code-python-isort",
+    "GitHub.copilot",
+    "GitHub.copilot-labs",
+    "GitHub.vscode-pull-request-github",
+    "gitpod.gitpod-desktop",
+    "HookyQR.beautify",
+    "redhat.vscode-yaml",
+    "standard.vscode-standard",
+    "suntobright.vscode-sftp",
+    "VisualStudioExptTeam.intellicode-api-usage-examples"
+  ]
+}
